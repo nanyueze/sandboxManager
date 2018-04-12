@@ -1,0 +1,2 @@
+# sandboxManager
+方便iOS工程师在Debug时查看沙盒文件列表
