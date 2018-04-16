@@ -11,11 +11,17 @@
 		2F0ED4815CFB0D64384F032FEA9B583D /* NANSandboxManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A4D34FB0A36D835D0B3336CAA0AEE /* NANSandboxManager-dummy.m */; };
 		334FB65AD850AA8398D7319DC198157A /* Pods-NANSandboxManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E61209F8F4441AC9CEBD3CAA1CAAEE /* Pods-NANSandboxManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37EE2B07D2961FEA298F87611DB9165A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		39E694092084891400BDFB71 /* NANSandboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E694072084891400BDFB71 /* NANSandboxViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E6940A2084891400BDFB71 /* NANSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E694082084891400BDFB71 /* NANSandboxViewController.m */; };
+		39E6940D2084895400BDFB71 /* NANFileInfoItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E6940B2084895400BDFB71 /* NANFileInfoItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E6940E2084895400BDFB71 /* NANFileInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E6940C2084895400BDFB71 /* NANFileInfoItem.m */; };
+		39E694112084897700BDFB71 /* NANSandboxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E6940F2084897700BDFB71 /* NANSandboxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E694122084897700BDFB71 /* NANSandboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E694102084897700BDFB71 /* NANSandboxManager.m */; };
+		39E6941420848B4700BDFB71 /* NANSandboxManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E6941320848B4700BDFB71 /* NANSandboxManagerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E95432AC3C65A6826A33012397898B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6F751672349FC139DC7D6D33D12DD4DF /* Pods-NANSandboxManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A02B171B28B8801A97FD216197B298 /* Pods-NANSandboxManager_Example-dummy.m */; };
 		9E759FDFD0223196C8558CBBF0CF2C81 /* Pods-NANSandboxManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208C42D10E8F1AE8C27B487144E4069F /* Pods-NANSandboxManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB9AF2F69EB0D04F6702B52C50B4873F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B8431073D20EE52207AB8768D0C092E2 /* ReplaceMe.m */; };
-		F80365FC22D5F3E52826BDE30599A24B /* NANSandboxManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 781DF5E951EA045B1541CCE80E3A345F /* NANSandboxManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80365FC22D5F3E52826BDE30599A24B /* NANSandboxManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 781DF5E951EA045B1541CCE80E3A345F /* NANSandboxManager-umbrella.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FE02020D747D376AB02AADABE5A0F1D0 /* Pods-NANSandboxManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3B9135F641B0080695D8344D16E6B /* Pods-NANSandboxManager_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +43,13 @@
 		27591BCC6AF6146A350EF681E39932FD /* Pods-NANSandboxManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NANSandboxManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		323F1392D1F78195D1064CD7EB54C92A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34A02B171B28B8801A97FD216197B298 /* Pods-NANSandboxManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NANSandboxManager_Example-dummy.m"; sourceTree = "<group>"; };
+		39E694072084891400BDFB71 /* NANSandboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NANSandboxViewController.h; sourceTree = "<group>"; };
+		39E694082084891400BDFB71 /* NANSandboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NANSandboxViewController.m; sourceTree = "<group>"; };
+		39E6940B2084895400BDFB71 /* NANFileInfoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NANFileInfoItem.h; sourceTree = "<group>"; };
+		39E6940C2084895400BDFB71 /* NANFileInfoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NANFileInfoItem.m; sourceTree = "<group>"; };
+		39E6940F2084897700BDFB71 /* NANSandboxManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NANSandboxManager.h; sourceTree = "<group>"; };
+		39E694102084897700BDFB71 /* NANSandboxManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NANSandboxManager.m; sourceTree = "<group>"; };
+		39E6941320848B4700BDFB71 /* NANSandboxManagerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NANSandboxManagerHeader.h; sourceTree = "<group>"; };
 		434A4D34FB0A36D835D0B3336CAA0AEE /* NANSandboxManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NANSandboxManager-dummy.m"; sourceTree = "<group>"; };
 		5E564F411211ABADFB402DDF2F54001E /* Pods-NANSandboxManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NANSandboxManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64469AEFB641B6E08CDEE3BC6213D057 /* Pods-NANSandboxManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NANSandboxManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,20 +57,19 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69F777E52B33CAC09E1894221533CCA4 /* Pods-NANSandboxManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NANSandboxManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6C145BFE353507A3E9A4E96629E695DD /* Pods-NANSandboxManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NANSandboxManager_Example-resources.sh"; sourceTree = "<group>"; };
-		71F18D9609BFCFCB86BF4CB84191C6D8 /* NANSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NANSandboxManager.framework; path = NANSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F18D9609BFCFCB86BF4CB84191C6D8 /* NANSandboxManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NANSandboxManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		781DF5E951EA045B1541CCE80E3A345F /* NANSandboxManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NANSandboxManager-umbrella.h"; sourceTree = "<group>"; };
 		849D4B73DDB294C49B9570D8C37DE6B7 /* Pods-NANSandboxManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NANSandboxManager_Tests.modulemap"; sourceTree = "<group>"; };
 		9096612614341BA25B46B143DA0E29A6 /* Pods-NANSandboxManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NANSandboxManager_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B4326A95E4A0F1FCA2CEBC16FBCA79 /* NANSandboxManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NANSandboxManager.xcconfig; sourceTree = "<group>"; };
-		96FAF5ECCC5CAFB0EDB6E4D0353F5642 /* Pods_NANSandboxManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NANSandboxManager_Tests.framework; path = "Pods-NANSandboxManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FAF5ECCC5CAFB0EDB6E4D0353F5642 /* Pods_NANSandboxManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NANSandboxManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98726936766F008188528408A757BBDD /* Pods-NANSandboxManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NANSandboxManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5D05C02F5E16AA59156060E955ABCF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7E3B9135F641B0080695D8344D16E6B /* Pods-NANSandboxManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NANSandboxManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		AEE24892AFF85D05DDF54362790E4CDB /* NANSandboxManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NANSandboxManager.modulemap; sourceTree = "<group>"; };
 		AFE73D888C842FE576016A13B9200D0E /* Pods-NANSandboxManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NANSandboxManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B2A6B0AC457D05C7DBE58AD625725E01 /* Pods_NANSandboxManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NANSandboxManager_Example.framework; path = "Pods-NANSandboxManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8431073D20EE52207AB8768D0C092E2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		B2A6B0AC457D05C7DBE58AD625725E01 /* Pods_NANSandboxManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NANSandboxManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25A3B8960F0A487873E83FD83A9C3DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7EDF7E8CC2B88B9DE6860451A8BB796 /* NANSandboxManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NANSandboxManager-prefix.pch"; sourceTree = "<group>"; };
 		C9E61209F8F4441AC9CEBD3CAA1CAAEE /* Pods-NANSandboxManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NANSandboxManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -151,9 +163,14 @@
 		7545ED11632EFFD644E6A5B37DF4959D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B8431073D20EE52207AB8768D0C092E2 /* ReplaceMe.m */,
+				39E694072084891400BDFB71 /* NANSandboxViewController.h */,
+				39E694082084891400BDFB71 /* NANSandboxViewController.m */,
+				39E6940B2084895400BDFB71 /* NANFileInfoItem.h */,
+				39E6940C2084895400BDFB71 /* NANFileInfoItem.m */,
+				39E6940F2084897700BDFB71 /* NANSandboxManager.h */,
+				39E694102084897700BDFB71 /* NANSandboxManager.m */,
+				39E6941320848B4700BDFB71 /* NANSandboxManagerHeader.h */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -212,7 +229,6 @@
 			children = (
 				7545ED11632EFFD644E6A5B37DF4959D /* Classes */,
 			);
-			name = NANSandboxManager;
 			path = NANSandboxManager;
 			sourceTree = "<group>";
 		};
@@ -247,6 +263,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E6941420848B4700BDFB71 /* NANSandboxManagerHeader.h in Headers */,
+				39E6940D2084895400BDFB71 /* NANFileInfoItem.h in Headers */,
+				39E694092084891400BDFB71 /* NANSandboxViewController.h in Headers */,
+				39E694112084897700BDFB71 /* NANSandboxManager.h in Headers */,
 				F80365FC22D5F3E52826BDE30599A24B /* NANSandboxManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +375,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E6940A2084891400BDFB71 /* NANSandboxViewController.m in Sources */,
+				39E694122084897700BDFB71 /* NANSandboxManager.m in Sources */,
 				2F0ED4815CFB0D64384F032FEA9B583D /* NANSandboxManager-dummy.m in Sources */,
-				DB9AF2F69EB0D04F6702B52C50B4873F /* ReplaceMe.m in Sources */,
+				39E6940E2084895400BDFB71 /* NANFileInfoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

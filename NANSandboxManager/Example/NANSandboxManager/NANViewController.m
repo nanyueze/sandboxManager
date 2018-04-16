@@ -7,6 +7,7 @@
 //
 
 #import "NANViewController.h"
+#import <NANSandboxManager/NANSandboxViewController.h>
 
 @interface NANViewController ()
 
@@ -17,13 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIButton *fileSystemBtn = [[UIButton alloc] initWithFrame:CGRectMake(20, 100, 100, 40)];
+    [fileSystemBtn setTitle:@"浏览沙盒" forState:UIControlStateNormal];
+    [fileSystemBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [fileSystemBtn addTarget:self action:@selector(scanSandbox) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:fileSystemBtn];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)scanSandbox
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [NANSandboxViewController presentFSViewControllerFrom:self filePath:nil];
 }
 
 @end
