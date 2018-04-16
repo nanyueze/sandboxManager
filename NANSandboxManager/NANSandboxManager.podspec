@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NANSandboxManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NANSandboxManager.'
+  s.version          = '0.0.1'
+  s.summary          = '沙盒管理器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  iOS开发过程中，总会遇到沙盒文件的读写，为了在调试过程中能够快速定位文件，查看沙盒文件列表，开发了沙盒管理器，方便开发人员集成和添加沙盒入口
+                      DESC
 
   s.homepage         = 'https://github.com/nanyueze/NANSandboxManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nanyueze' => 'lizenan@meituan.com' }
+  s.author           = { 'nanyueze' => 'lizenan@126.com' }
   s.source           = { :git => 'https://github.com/nanyueze/NANSandboxManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
