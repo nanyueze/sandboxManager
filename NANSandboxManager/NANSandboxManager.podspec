@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NANSandboxManager/Classes/**/*'
+  s.source_files = 'NANSandboxManager/Classes/*'
   
   # s.resource_bundles = {
   #   'NANSandboxManager' => ['NANSandboxManager/Assets/*.png']
