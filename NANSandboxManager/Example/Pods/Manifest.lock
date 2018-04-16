@@ -1,0 +1,16 @@
+PODS:
+  - NANSandboxManager (0.1.0)
+
+DEPENDENCIES:
+  - NANSandboxManager (from `../`)
+
+EXTERNAL SOURCES:
+  NANSandboxManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NANSandboxManager: cf2b6cd51d9681dc9612b6058fb9b68fd6a4735e
+
+PODFILE CHECKSUM: 18deb9f24036b95377edccb06af9a095794446f8
+
+COCOAPODS: 1.1.1

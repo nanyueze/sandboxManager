@@ -1,0 +1,22 @@
+{
+  "name": "NANSandboxManager",
+  "version": "0.1.0",
+  "summary": "A short description of NANSandboxManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nanyueze/NANSandboxManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nanyueze": "lizenan@meituan.com"
+  },
+  "source": {
+    "git": "https://github.com/nanyueze/NANSandboxManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NANSandboxManager/Classes/**/*"
+}

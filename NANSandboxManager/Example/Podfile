@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NANSandboxManager_Example' do
+  pod 'NANSandboxManager', :path => '../'
+
+  target 'NANSandboxManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
