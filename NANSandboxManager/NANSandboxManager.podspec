@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   iOS开发过程中，总会遇到沙盒文件的读写，为了在调试过程中能够快速定位文件，查看沙盒文件列表，开发了沙盒管理器，方便开发人员集成和添加沙盒入口
                       DESC
 
-  s.homepage         = 'https://github.com/nanyueze/NANSandboxManager'
+  s.homepage         = 'https://github.com/nanyueze/sandboxManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nanyueze' => 'lizenan@126.com' }
-  s.source           = { :git => 'https://github.com/nanyueze/NANSandboxManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nanyueze/sandboxManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
